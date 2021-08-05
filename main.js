@@ -34,30 +34,44 @@
 // // console.log(total);
 
 
-var number =11;
 
 
-if(number>=80 && number <=100){
-    console.log("A+");
+// function grade(number){
 
-}else if(number>=70 && number <=79){
-    console.log("A-");
 
-}else if(number>=60 && number <=69){
-    console.log("A");
 
-}else if(number>=50 && number <=59){
-    console.log("B");
+// if(number>=80 && number <=100){
+//     console.log("A+");
 
-}else if(number>=40 && number <=49){
-    console.log("C");
+// }else if(number>=70 && number <=79){
+//     console.log("A-");
 
-}else if(number>=33 && number <=39){
-    console.log("D");
+// }else if(number>=60 && number <=69){
+//     console.log("A");
 
-}else if(number>=1 && number<=32){
-    console.log("Fail")
+// }else if(number>=50 && number <=59){
+//     console.log("B");
+
+// }else if(number>=40 && number <=49){
+//     console.log("C");
+
+// }else if(number>=33 && number <=39){
+//     console.log("D");
+
+// }else if(number>=1 && number<=32){
+//     console.log("Fail")
+// }
+// else{
+//     console.log("Not a valid number")
+// }
+// }
+// var result = grade(80);
+
+// console.log(result); 
+
+function totalHour(minutes){
+    var hours = minutes/60;
+    return hours;
 }
-else{
-    console.log("Not a valid number")
-}
+var modulesHour = totalHour(2372).toFixed(2);
+console.log(modulesHour);
