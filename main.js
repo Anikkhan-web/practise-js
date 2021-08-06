@@ -1,98 +1,63 @@
-// function anik(n){
-//     return n*2;
+// grade = console.log(70);
+
+// switch (grade) {
+//     case grade >= 95:
+//         console.log("You got A+");
+//         break;
+
+//     case grade < 95 && grade >= 90:
+//         console.log("You got A");
+//         break;
+
+//     case grade < 90 && grade >= 85:
+//         console.log("You got A-");
+//         break;
+
+//     case grade < 85 && grade >= 80:
+//         console.log("You got B+");
+//         break;
+
+//     case grade < 80 && grade >= 75:
+//         console.log("You got B");
+//         break;
+
+//     case grade < 75 && grade >= 70:
+//         console.log("You got B-");
+//         break;
+
+//     case grade < 70 && grade >= 65:
+//         console.log("You got C+");
+//         break;
+
+//     case grade < 65 && grade >= 60:
+//         console.log("You got C");
+//         break;
+
+//     case grade < 60 && grade >= 55:
+//         console.log("You got C-");
+//         break;
+
+//     case grade < 55 && grade >= 50:
+//         console.log("You got D");
+//         break;
+
+//     case grade < 50:
+//         console.log("You FAILED");
+//         break;
+
+//     default:
+//         console.log("Wrong Number");
 // }
-// var yes = anik(10);
-// console.log(yes);
 
+const number = 2.7;
+const output = Math.abs(number);
+const output = Math.random()*3
+const rounded = Math.floor(output)
 
-// let name = "anik khan";
+console.log(rounded);
+for (let i = 0; i<=10; i++){
+    const output = Math.random()*6
+const rounded = Math.round(output)
 
-// for (let i = 1; i<=4; i++){
-//     console.log(i);
-
-// }
-// let i = 0;
-// while(i<=4){
-//     console.log(i);
-//     i++
-// }
-
-// function simpleInterest(principleBalence){
-//     var rateOfInterest = 14;
-//     var time = 1;
-//     var finalAmount = principleBalence*rateOfInterest*time/(100*12);
-
-//     let total = (principleBalence+finalAmount);
-//     // return total;
-//     console.log(total);
-//     return finalAmount;
-
-    
-// }
-// var result = simpleInterest(50000);
-// console.log(result);
-// // console.log(total);
-
-
-
-
-function grade(number){
-
-
-
-if(number>=80 && number <=100){
-    return (" A+");
-
-}else if(number>=70 && number <=79){
-    return ("A-");
-
-}else if(number>=60 && number <=69){
-    return ("A");
-
-}else if(number>=50 && number <=59){
-    return ("B");
-
-}else if(number>=40 && number <=49){
-    return ("C");
-
-}else if(number>=33 && number <=39){
-    return ("D");
-
-}else if(number>=1 && number<=32){
-    return ("Fail");
+console.log(rounded);
 }
-else{
-    return ("Not a valid number")
-}
-}
-var result = grade(40);
-console.log('your result is',result);
- 
-
-// function totalHour(minutes){
-//    let hours = minutes/60;
-//     return hours;
-// }
-// const modulesHour = totalHour(2372).toFixed(2);
-// console.log('total modules hour',modulesHour);
-
-
-// items = ["anik","khan","kmn","asw",5,6];
-
-
-// for (var i = 0; i<= items.length; i++){
-
-//     console.log(items[i]);
-// }
-// year%4==0 && year%100!= 0 || year%400==0 leap year
-
-
-
-
-
-// for(var i = 11; i <= 30; i += 2)
-// {
-//  var sum = sum += i;
-//  console.log(sum)
-// }
-
