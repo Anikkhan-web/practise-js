@@ -75,13 +75,35 @@
 
 
 
-const b = 450;
-const m = 350;
-const a= 900
-if (b>m && b>a){
-    console.log("bbb");
-}else if(m>b && m>A){
-    console.log("mmmmm");
-}else{
-    console.log("a");
+// const b = 450;
+// const m = 350;
+// const a= 900
+// if (b>m && b>a){
+//     console.log("bbb");
+// }else if(m>b && m>A){
+//     console.log("mmmmm");
+// }else{
+//     console.log("a");
+// }
+
+
+// var result =  Math.max(200,300,400);
+// console.log(result);
+
+// const number = [22,33,44,55,66,77]
+
+
+function arrayTotal(number){
+    let sum = 0;
+for (let i = 0; i < number.length; i++){
+
+    var element = number[i]
+      sum = sum + element;
+      
+    
 }
+return sum;
+
+}
+var returnSum = arrayTotal([1,2,3])
+console.log(returnSum);
