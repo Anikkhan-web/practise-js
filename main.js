@@ -1,109 +1,82 @@
-// grade = console.log(70);
+// duplicate
 
-// switch (grade) {
-//     case grade >= 95:
-//         console.log("You got A+");
-//         break;
+// const names = ['anik','khan','arr','gray','anik','khan'];
 
-//     case grade < 95 && grade >= 90:
-//         console.log("You got A");
-//         break;
+// function removeDuplicate(names){
 
-//     case grade < 90 && grade >= 85:
-//         console.log("You got A-");
-//         break;
+// const unique = [];
 
-//     case grade < 85 && grade >= 80:
-//         console.log("You got B+");
-//         break;
+// // for (let i = 0; i<names.length; i++){
+// //     const element = names[i];
+// //     console.log(element);
+// // }
+// for (const element of names){
 
-//     case grade < 80 && grade >= 75:
-//         console.log("You got B");
-//         break;
+//     console.log(element);
+//     if(unique.indexOf(element)== -1){
+//         unique.push(element);
+//     }
 
-//     case grade < 75 && grade >= 70:
-//         console.log("You got B-");
-//         break;
-
-//     case grade < 70 && grade >= 65:
-//         console.log("You got C+");
-//         break;
-
-//     case grade < 65 && grade >= 60:
-//         console.log("You got C");
-//         break;
-
-//     case grade < 60 && grade >= 55:
-//         console.log("You got C-");
-//         break;
-
-//     case grade < 55 && grade >= 50:
-//         console.log("You got D");
-//         break;
-
-//     case grade < 50:
-//         console.log("You FAILED");
-//         break;
-
-//     default:
-//         console.log("Wrong Number");
 // }
-
-// const number = 2.7;
-// const output = Math.abs(number);
-// const output = Math.random()*3
-// const rounded = Math.floor(output)
-
-// console.log(rounded);
-// for (let i = 0; i<=10; i++){
-//     const output = Math.random()*6
-// const rounded = Math.round(output)
-
-// console.log(rounded);
+// return 
 // }
-
-// var first = 5;
-// var second = 7;
-// console.log(first,second); 
-// var tem = first; 
- // first = second; 
- // second = tem;
- // console.log(first,second);
-
-// [first,second]=[second,first]
-// console.log(first,second);
+// const unique
 
 
+// reverse
 
-// const b = 450;
-// const m = 350;
-// const a= 900
-// if (b>m && b>a){
-//     console.log("bbb");
-// }else if(m>b && m>A){
-//     console.log("mmmmm");
-// }else{
-//     console.log("a");
+// var gretings = "hello how are you"
+
+// function  reverseString(text){
+//     let reverse = '';
+
+//     for(const letter of text){
+//         console.log(letter);
+//         reverse = letter + reverse;
+//     }
+// }
+// const reversed = reverseString(gretings);
+// console.log(reversed);
+
+// function mx(au) {
+//     return Math.max(au, an, ak);
+// }
+// var au = 10, an = 20, ak = 15;
+// console.log(mx(au));
+
+// sum=0; 
+// for( let i = 0; i<=3;i++){
+//      sum = sum + i; 
+//      console.log(sum);
+//     }
+
+
+
+
+// var rows = 5;
+
+// for(var i=1; i <=rows;i++){
+//      for(var j=1;j<=i;j++){
+          
+//                console.log("* ");
+          
+//      }
+//      console.log("<br/>");
 // }
 
 
-// var result =  Math.max(200,300,400);
-// console.log(result);
-
-// const number = [22,33,44,55,66,77]
-
-
-function arrayTotal(number){
-    let sum = 0;
-for (let i = 0; i < number.length; i++){
-
-    var element = number[i]
-      sum = sum + element;
-      
-    
-}
-return sum;
-
-}
-var returnSum = arrayTotal([1,2,3])
-console.log(returnSum);
+// function largestElement(numbers) {
+//      let min = numbers[0];
+//      for(var i=1;i < numbers.length;i++){
+        
+//           var element =  numbers[i];
+       
+//           if(element < min){
+//                min = element;
+//           }
+//      }
+//       return min;
+// }
+// var age = [112,22,20,44,66,88,90,111];
+// const minimum =largestElement(age);
+// console.log(minimum);
