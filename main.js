@@ -80,18 +80,19 @@
 // var age = [112,22,20,44,66,88,90,111];
 // const minimum =largestElement(age);
 // console.log(minimum);
+ 
 
-const names= ['anik','babul','babul','babul','anik','cabul','anik','anik','cabul','anik','anik','anik','abul'];
+const greetings = 'hello, how are you?';
 
 
-function removeDuplicate(names) {
-     const unique =[];
-     for(const element of names){
-         if(unique.indexOf(element)== -1){
-              unique.push(element)
-         }
-     }
-     return unique;
-}
-const uniqueNames = removeDuplicate(names);
-console.log(uniqueNames);
+ function reverseString(text) {
+      let reverse= '';
+      for(const letter of text){
+           console.log(letter)
+          reverse = letter + reverse ;
+
+      }
+      return reverse;
+ }
+ const reversed = reverseString(greetings);
+ console.log(reversed);
